@@ -1,0 +1,56 @@
+#  House Price Prediction using Machine Learning
+
+A machine learning project that predicts the price of a house based on various features like number of rooms, location, area, and other amenities. This project uses regression techniques and is built with Python and scikit-learn.
+
+---
+
+##  Project Overview
+
+The project aims to estimate house prices by training regression models on historical housing data. It involves data preprocessing, feature engineering, model training, and evaluation. The goal is to provide accurate predictions to assist in real estate decisions.
+
+---
+
+## Features
+
+- Data cleaning and preprocessing
+- Handling missing values and outliers
+- Encoding categorical features (One-Hot/Label Encoding)
+- Feature scaling (StandardScaler)
+- Regression models used:
+  - Linear Regression
+  - Decision Tree Regressor
+  - Random Forest Regressor
+  - XGBoost Regressor
+- Evaluation Metrics:
+  - R² Score
+  - MAE (Mean Absolute Error)
+  - RMSE (Root Mean Squared Error)
+
+---
+
+##  Technologies Used
+
+- **Python**
+- **pandas, numpy** – data processing
+- **scikit-learn** – ML models & preprocessing
+- **matplotlib, seaborn** – visualization
+- **xgboost** – boosting algorithm
+- **Jupyter Notebook**
+
+---
+
+##  Dataset
+
+- Dataset Source: [Kaggle – House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+- Includes features like `LotArea`, `OverallQual`, `YearBuilt`, `GarageCars`, `TotalBsmtSF`, and many more.
+
+---
+
+##  Getting Started
+
+###  Prerequisites
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
